@@ -17,7 +17,7 @@ services:
       context: .
     environment: 
       ENVSUBST_VARS: FQDN
-      FQDN: 52.231.33.87
+      FQDN: localhost
     ports:
       - "8080:8080"
     volumes: 
